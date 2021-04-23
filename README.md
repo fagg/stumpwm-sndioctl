@@ -2,7 +2,7 @@
 
 stumpwm-sndioctl adds some features to StumpWM so you can control the
 volume using OpenBSD's sndioctl, and have it show you pretty messages
-as you make changes. If you also wish to bind 
+as you make changes.
 
 Add something like this to your StumpWM config:
 ```
