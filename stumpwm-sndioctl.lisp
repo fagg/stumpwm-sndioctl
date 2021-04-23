@@ -16,11 +16,9 @@
 ;;;; TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 ;;;; PERFORMANCE OF THIS SOFTWARE.
 
-
 (in-package #:stumpwm-sndioctl)
 
-
-(defvar *step* 0.05)
+(defvar *step* 0.05 "The amount by which the volume will be changed on up/down command.")
 (defvar *terse* nil "If t, this will supress messages that get shown on changes to volume.")
 
 (defun call-sndioctl (args captive)
