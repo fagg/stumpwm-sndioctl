@@ -17,9 +17,9 @@
 ;;;; PERFORMANCE OF THIS SOFTWARE.
 
 (asdf:defsystem #:stumpwm-sndioctl
-  :description "Interface to OpenBSD's sndioctl from StumpWM."
+  :description "Interface to OpenBSD's sndioctl for StumpWM."
   :author "Dr Ashton Fagg <ashton@fagg.id.au>"
-  :license  "ISC""
+  :license  "ISC"
   :version "0.0.1"
   :serial t
   :depends-on (#:stumpwm)
